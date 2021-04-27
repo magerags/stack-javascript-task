@@ -23,7 +23,7 @@ class Stack {
 
   swap() {
     const a = this.elements;
-    [a[this.size - 2], a[this.size - 1]] = [a[this.size - 1],a[this.size - 2]];
+    return [a[this.size - 2], a[this.size - 1]] = [a[this.size - 1],a[this.size - 2]];
   }
 
   isEmpty() {
